@@ -32,7 +32,7 @@
 .caption h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:  5em;
-    padding-top: 10%;
+    padding-top: 15%;
     color: white;
 
     
@@ -59,7 +59,7 @@
 
 
 #menu{
-    padding-top: 8%;
+    padding-top: 2.9%;
     
     width: 100%;
     display: flex;
