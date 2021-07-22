@@ -3,7 +3,7 @@
     padding: 0px;
     border: none;
     color: white;
-    background-color: black;
+    background-color: rgb( 18, 18, 18);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -104,6 +104,7 @@
 
 
 body {
+    width: 100%;
     padding: 0;
     margin: 0;
     border: none;
@@ -115,7 +116,7 @@ body {
 
 
 #top-menu{
-    background-color: black;
+    background-color: rgb( 18, 18, 18);
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -165,11 +166,11 @@ body {
 }
 
 .C-1{
-    background: white;
-    border-radius: 5px;
-    padding-left: 60px;
-    padding-right: 60px;
-    
+        background: white;
+        border-radius: 5px;
+        padding-left: 60px;
+        padding-right: 60px;
+        
 }
 
 #top-banner{
@@ -245,4 +246,22 @@ body {
     background-color:rgb(238, 32, 238);
     margin-bottom: 50px;
     margin-top: -10px;
+
+}
+
+
+.D-2 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.D-2 h4 {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+.D-2 h5 {
+    
+    text-decoration: underline;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
 }
