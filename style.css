@@ -1,0 +1,248 @@
+#main-header {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: white;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+    
+}
+
+.caption {
+    position: relative;
+    display: flex;
+    padding-top:  5%; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    z-index: 1;
+}
+
+.caption h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    padding-bottom: 4%;
+    color: white;
+}
+
+.caption h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:  5em;
+    padding-top: 10%;
+    color: white;
+
+    
+}
+
+#top{
+    width: 100%;
+    height: 100%;
+    background-image: url("Images/351823.jpg");
+    background-position: 0;
+    background-size: 100%;
+    position: absolute;
+    /* margin: 0;
+    border: 0;
+    padding: 0; */
+    z-index: -1;
+}
+
+#bg-video {
+    width: 100%;
+    height: 100%;
+    opacity: 0.45;
+}
+
+
+#menu{
+    padding-top: 8%;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;    
+    z-index: 2;
+}
+
+
+#menu button {
+    background-color: rgb(238, 32, 238);
+    border-width: 0;
+    width: 230px;
+    height: 66px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+#menu button:hover {
+    background-color: rgb(241, 155, 241);
+
+    
+
+}
+
+
+#menu a button {
+    color:black;
+    display: inline;
+    font-size: 20px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+   
+}
+
+#menu a {
+    text-decoration: none;
+   
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+#top-menu{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#top-menu img{
+    height: 80%;
+    padding-top: 10px;
+    padding-left: 47%;
+}
+
+#menu-buttons{
+    width: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.6%;
+}
+
+#menu-buttons button{
+    background-color: rgb(238, 32, 238, 0);
+    border-width: 1px;
+    border-color: rgb(238, 32, 238);
+    width: 145px;
+    height: 40px;
+    margin-right: 9%;
+    color: white;
+}
+.banner{
+    background-size: 100%;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.column{
+    width: 28%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.C-1{
+    background: white;
+    border-radius: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+#top-banner{
+    background-image: url("Images/Ram.jpg");
+    
+}
+#mid-banner{
+    background-image: url("Images/Life.png");
+    
+}
+#bottom-banner{
+    background-image: url("Images/Valk.png");
+    
+}
+
+.C-1 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.C-1 h4 {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+.C-1 h5 {
+    
+    text-decoration: underline;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.stat-lists{
+    margin-top: -40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.strip1 {
+    background-size: 100%;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+
+#top-banner-2 {
+    flex-direction: column-reverse;
+}
+
+
+
+#bottom-banner2 {
+    margin-top: 150px;
+    flex-direction: column;
+
+}
+
+
+.C-2 img {
+    height: 100%;
+}
+
+.D-2 {
+    width: 100%;
+    height: 100px;
+    background-color:rgb(238, 32, 238);
+    margin-bottom: 50px;
+    margin-top: -10px;
+}
